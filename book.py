@@ -3,7 +3,7 @@ from flask_cors import CORS
 from pymongo import MongoClient
 from bson import ObjectId
 
-MONGODB_URI = "mongodb+srv://๊User:Password@cluster0.wzdn2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" 
+MONGODB_URI = "mongodb+srv://User:Password@cluster0.wzdn2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" 
 DB_NAME = "book_database"
 
 client = MongoClient(MONGODB_URI)
